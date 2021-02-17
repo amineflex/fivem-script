@@ -112,5 +112,66 @@ sudo iptables -A INPUT -s 138.68.128.0/20 -j DROP
 sudo iptables -A INPUT -s 138.68.144.0/20 -j DROP
 echo "100 subnet de DigitalOcean ont été ban!"
 sleep 2
-# BAN 
-echo "Fin (Pour l'instant)"
+# BAN AS60068
+echo "Bannissement des IP Datacamp Limited | AS60068 "
+sleep 2
+echo "Chargement..."
+sudo iptables -A INPUT -s 103.15.193.0/24 -j DROP
+sudo iptables -A INPUT -s 104.238.39.0/24 -j DROP
+sudo iptables -A INPUT -s 104.238.44.0/24 -j DROP
+sudo iptables -A INPUT -s 138.199.0.0/24 -j DROP
+sudo iptables -A INPUT -s 138.199.10.0/23 -j DROP
+sudo iptables -A INPUT -s 138.199.12.0/23 -j DROP
+sudo iptables -A INPUT -s 138.199.14.0/23 -j DROP
+sudo iptables -A INPUT -s 138.199.17.0/24 -j DROP
+sudo iptables -A INPUT -s 138.199.18.0/23 -j DROP
+sudo iptables -A INPUT -s 138.199.20.0/23 -j DROP
+sudo iptables -A INPUT -s 138.199.2.0/23 -j DROP
+sudo iptables -A INPUT -s 138.199.22.0/23 -j DROP
+sudo iptables -A INPUT -s 138.199.24.0/23 -j DROP
+sudo iptables -A INPUT -s 138.199.26.0/23 -j DROP
+sudo iptables -A INPUT -s 138.199.28.0/23 -j DROP
+sudo iptables -A INPUT -s 138.199.32.0/23 -j DROP
+sudo iptables -A INPUT -s 138.199.36.0/23 -j DROP
+sudo iptables -A INPUT -s 138.199.40.0/23 -j DROP
+sudo iptables -A INPUT -s 138.199.4.0/23 -j DROP
+sudo iptables -A INPUT -s 138.199.51.0/24 -j DROP
+sudo iptables -A INPUT -s 138.199.53.0/24 -j DROP
+sudo iptables -A INPUT -s 138.199.8.0/23 -j DROP
+sudo iptables -A INPUT -s 143.244.32.0/24 -j DROP
+sudo iptables -A INPUT -s 143.244.33.0/24 -j DROP
+sudo iptables -A INPUT -s 143.244.33.0/24 -j DROP
+sudo iptables -A INPUT -s 143.244.36.0/22 -j DROP
+sudo iptables -A INPUT -s 143.244.40.0/22 -j DROP
+sudo iptables -A INPUT -s 143.244.44.0/22 -j DROP
+sudo iptables -A INPUT -s 143.244.48.0/22 -j DROP
+sudo iptables -A INPUT -s 143.244.52.0/22 -j DROP
+sudo iptables -A INPUT -s 143.244.56.0/23 -j DROP
+sudo iptables -A INPUT -s 143.244.58.0/23 -j DROP
+sudo iptables -A INPUT -s 143.244.60.0/22 -j DROP
+sudo iptables -A INPUT -s 143.244.62.0/23 -j DROP
+sudo iptables -A INPUT -s 156.146.32.0/24 -j DROP
+sudo iptables -A INPUT -s 156.146.33.0/24 -j DROP
+sudo iptables -A INPUT -s 156.146.34.0/23 -j DROP
+sudo iptables -A INPUT -s 156.146.36.0/23 -j DROP
+sudo iptables -A INPUT -s 156.146.38.0/23 -j DROP
+sudo iptables -A INPUT -s 156.146.40.0/24 -j DROP
+sudo iptables -A INPUT -s 156.146.41.0/24 -j DROP
+sudo iptables -A INPUT -s 156.146.42.0/23 -j DROP
+sudo iptables -A INPUT -s 156.146.44.0/23 -j DROP
+sudo iptables -A INPUT -s 156.146.46.0/23 -j DROP
+sudo iptables -A INPUT -s 156.146.48.0/23 -j DROP
+sudo iptables -A INPUT -s 156.146.50.0/23 -j DROP
+sudo iptables -A INPUT -s 156.146.52.0/23 -j DROP
+sudo iptables -A INPUT -s 156.146.54.0/23 -j DROP
+sudo iptables -A INPUT -s 156.146.56.0/23 -j DROP
+sudo iptables -A INPUT -s 156.146.58.0/23 -j DROP
+sudo iptables -A INPUT -s 156.146.60.0/23 -j DROP
+sudo iptables -A INPUT -s 156.146.62.0/24 -j DROP
+sudo iptables -A INPUT -s 156.146.63.0/24 -j DROP
+sudo iptables -A INPUT -s 159.242.228.0/24 -j DROP
+sudo iptables -A INPUT -s 159.242.232.0/23 -j DROP
+echo "100 subnet de DigitalOcean ont été ban!"
+sleep 2
+echo "Fini // Par Amine B."
+
