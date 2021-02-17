@@ -91,7 +91,7 @@ sudo iptables -A INPUT -s 138.197.192.0/20 -j DROP
 sudo iptables -A INPUT -s 138.197.208.0/20 -j DROP
 sudo iptables -A INPUT -s 138.197.224.0/22 -j DROP
 sudo iptables -A INPUT -s 138.197.228.0/22 -j DROP
-sudo iptables -A INPUT -s 138.197.232.0/22 -j DROPs
+sudo iptables -A INPUT -s 138.197.232.0/22 -j DROP
 sudo iptables -A INPUT -s 138.197.236.0/22 -j DROP
 sudo iptables -A INPUT -s 138.197.240.0/22 -j DROP	
 sudo iptables -A INPUT -s 138.197.252.0/22 -j DROP	
