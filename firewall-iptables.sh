@@ -173,5 +173,5 @@ sudo iptables -A INPUT -s 159.242.228.0/24 -j DROP
 sudo iptables -A INPUT -s 159.242.232.0/23 -j DROP
 echo "100 subnet de DigitalOcean ont été ban!"
 sleep 2
-echo "Fini // Par Amine B."
+echo "Fini // Par Amine B. et Alexis D."
 
