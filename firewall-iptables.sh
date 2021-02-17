@@ -1,6 +1,5 @@
 #!/bin/sh
 #
-#
 
 echo "Firewall by Amine // CroHosting"
 echo "Powered by CroHosting | contact@crogroup.fr"
@@ -40,10 +39,10 @@ sudo iptables -A INPUT -s 104.248.224.0/20 -j DROP
 sudo iptables -A INPUT -s 104.248.240.0/20 -j DROP
 sudo iptables -A INPUT -s 104.248.32.0/20 -j DROP	
 sudo iptables -A INPUT -s 104.248.48.0/20 -j DROP		
-sudo iptables -A INPUT -s 104.248.64.0/20 -j DROP		
-sudo iptables -A INPUT -s 104.248.80.0/20 -j DROP		
-sudo iptables -A INPUT -s 104.248.96.0/22 -j DROP	  
-sudo iptables -A INPUT -s 107.170.0.0/17 -j DROP	
+sudo iptables -A INPUT -s 104.248.64.0/20 -j DROP
+sudo iptables -A INPUT -s 104.248.80.0/20 -j DROP
+sudo iptables -A INPUT -s 104.248.96.0/22 -j DROP
+sudo iptables -A INPUT -s 107.170.0.0/17 -j DROP
 sudo iptables -A INPUT -s 107.170.128.0/19 -j DROP	
 sudo iptables -A INPUT -s 107.170.160.0/19 -j DROP
 sudo iptables -A INPUT -s 107.170.192.0/18 -j DROP	  
@@ -93,8 +92,8 @@ sudo iptables -A INPUT -s 138.197.224.0/22 -j DROP
 sudo iptables -A INPUT -s 138.197.228.0/22 -j DROP
 sudo iptables -A INPUT -s 138.197.232.0/22 -j DROP
 sudo iptables -A INPUT -s 138.197.236.0/22 -j DROP
-sudo iptables -A INPUT -s 138.197.240.0/22 -j DROP	
-sudo iptables -A INPUT -s 138.197.252.0/22 -j DROP	
+sudo iptables -A INPUT -s 138.197.240.0/22 -j DROP
+sudo iptables -A INPUT -s 138.197.252.0/22 -j DROP
 sudo iptables -A INPUT -s 138.197.32.0/20 -j DROP
 sudo iptables -A INPUT -s 138.197.48.0/22 -j DROP
 sudo iptables -A INPUT -s 138.197.52.0/22 -j DROP
@@ -102,13 +101,13 @@ sudo iptables -A INPUT -s 138.197.56.0/22 -j DROP
 sudo iptables -A INPUT -s 138.197.60.0/22 -j DROP
 sudo iptables -A INPUT -s 138.197.64.0/20 -j DROP
 sudo iptables -A INPUT -s 138.197.80.0/20 -j DROP
-sudo iptables -A INPUT -s 138.197.96.0/20 -j DROP	
+sudo iptables -A INPUT -s 138.197.96.0/20 -j DROP
 sudo iptables -A INPUT -s 138.68.0.0/20 -j DROP
-sudo iptables -A INPUT -s 138.68.112.0/22 -j DROP	 
-sudo iptables -A INPUT -s 138.68.116.0/22 -j DROP	
-sudo iptables -A INPUT -s 138.68.120.0/23 -j DROP	
-sudo iptables -A INPUT -s 138.68.122.0/23 -j DROP	
-sudo iptables -A INPUT -s 138.68.124.0/22 -j DROP	
+sudo iptables -A INPUT -s 138.68.112.0/22 -j DROP	
+sudo iptables -A INPUT -s 138.68.116.0/22 -j DROP
+sudo iptables -A INPUT -s 138.68.120.0/23 -j DROP
+sudo iptables -A INPUT -s 138.68.122.0/23 -j DROP
+sudo iptables -A INPUT -s 138.68.124.0/22 -j DROP
 sudo iptables -A INPUT -s 138.68.128.0/20 -j DROP
 sudo iptables -A INPUT -s 138.68.144.0/20 -j DROP
 echo "100 subnet de DigitalOcean ont été ban!"
