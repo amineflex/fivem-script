@@ -176,6 +176,8 @@ sleep 2
 
 # BAN AS206898 
 echo "Bannissement des IP DServer Hosting Pty Ltd | AS206898  "
+sleep 2
+echo "Chargement..."
 sudo iptables -A INPUT -s 185.172.110.0/23 -j DROP
 sudo iptables -A INPUT -s 185.83.215.0/24 -j DROP
 echo "2 subnet de Server Hosting Pty Ltd ont été ban!"
