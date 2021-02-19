@@ -173,5 +173,11 @@ sudo iptables -A INPUT -s 159.242.228.0/24 -j DROP
 sudo iptables -A INPUT -s 159.242.232.0/23 -j DROP
 echo "100 subnet de DigitalOcean ont été ban!"
 sleep 2
-echo "Fini // Par Amine B. et Alexis D."
 
+# BAN AS206898 
+echo "Bannissement des IP DServer Hosting Pty Ltd | AS206898  "
+sudo iptables -A INPUT -s 185.172.110.0/23 -j DROP
+sudo iptables -A INPUT -s 185.83.215.0/24 -j DROP
+echo "2 subnet de Server Hosting Pty Ltd ont été ban!"
+sleep 2
+echo "Fini // Par Amine B. et Alexis D."
