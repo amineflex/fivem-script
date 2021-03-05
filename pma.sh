@@ -10,4 +10,4 @@ wget https://files.phpmyadmin.net/phpMyAdmin/5.0.2/phpMyAdmin-5.0.2-all-language
 unzip phpMyAdmin-5.0.2-all-languages.zip
 mv phpMyAdmin-5.0.2-all-languages/* /var/www/html/phpmyadmin
 rm -rf phpM*
-echo "Installation terminé | crohosting.fr";
+echo "Installation terminé | vpslabs.fr";
