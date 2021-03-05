@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-#By CroHosting
+#By VPSLabs
 
 echo "Installation phpMyAdmin | Par Amine B.";
 cd /var/www/html/
