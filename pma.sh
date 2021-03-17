@@ -6,6 +6,9 @@ echo "Installation phpMyAdmin | Par Amine B.";
 echo "";
 sleep 1
 
+echo "Installation MariaDB";
+apt install mariadb-server -y
+
 echo "Installation Apache2";
 apt install sudo -y
 apt install apache2 apache2-doc -y
