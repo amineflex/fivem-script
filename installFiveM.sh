@@ -3,7 +3,7 @@
 # Script d'installation - Serveur FiveM
 # Par Adam - Kistin Soltuions
 #
-chmod 777 recipe1.sh
+chmod 777 installFiveM.sh
 
 apt update -y
 apt install screen -y
@@ -93,5 +93,5 @@ apt-get install mysql-server -y
 
 
 echo "Installation complète"
-rm -f /root/recipe1.sh
+rm -f /root/installFiveM.sh
 
