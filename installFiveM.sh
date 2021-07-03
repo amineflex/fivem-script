@@ -1,7 +1,7 @@
 #!/bin/sh
 #
 # Script d'installation - Serveur FiveM
-# Par Adam - Kistin Soltuions
+# Par Adam - CroHosting
 #
 chmod 777 installFiveM.sh
 
